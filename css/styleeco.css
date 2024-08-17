@@ -55,21 +55,20 @@ header .interface{
     align-items: center;
 }
 
-header .logo img{              /* logo */
-}
+
 
 /* Estilo do menu dinamico */
 header .logo img.logo-preto{
     display: none;
-    width: 55px;       /* Tamanho da logo *Modificando, altera tamanho da barra de navegacao */
-    height: 55px;
+    width: 50px;       /* Tamanho da logo *Modificando, altera tamanho da barra de navegacao */
+    height: 50px;
 }
 
 header.rolar{
-    background-color: #254e2c; /* Cor da barra de naveção */
-    padding: 5px 0;  /* Tamanho da Barra de navegação */
+    background-image: url('/imgcabeçalho/Banner.jpeg');
+    padding: 3px 0;  /* Tamanho da Barra de navegação */
 
-    box-shadow: 0 0 30px #346231;  /* sombra da barra */
+    box-shadow: 0 0 30px #1b3619;  /* sombra da barra */
 }
 
 header.rolar .menu-desktop nav ul li a{
@@ -104,6 +103,7 @@ header .menu-desktop nav ul{
 header .menu-desktop nav ul li{
     display: inline-block;
     margin: 0 70px;
+    
 }
 
 header .menu-desktop nav ul li a{
@@ -435,12 +435,16 @@ section.como-funciona{
     position: sticky;
     top: 50%;
     padding-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
 }
 
 
 .como-funciona .txt-funciona h3{
     font-size: 4em;
-    line-height: px;   /* espaçamento entre palavras coomo funciona */
+    line-height: px;
+    text-align: center;   /* espaçamento entre palavras coomo funciona */
     font-weight: 300;
 }
 
